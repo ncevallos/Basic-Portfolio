@@ -1,0 +1,131 @@
+body {
+	background-color: #fff;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font: #777;
+	margin: 0;
+	padding: 0;
+	width: 960px;
+	border-color:#ddd;
+
+
+}
+a {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+	padding: 0px 15px;
+	text-decoration: none;
+}
+h1{
+	font-family:"Georgia", Times, Times New Roman,serif;
+	border-color:#ccc;
+	font-size: 24px;
+}
+/*NameHeader formats the area with my name */
+#NameHeader {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 8px;
+	margin-left: 20px;
+	float: left;
+}
+
+/* Navigation formats the area with the links
+on the top of the page */
+#navigation {
+	float: right;
+	margin-right: 50px;
+}
+
+#navigation ul li { display: inline; }
+
+/* Controls the font color for the names of
+the page and connect with me */
+.headings2 {
+
+	color: #4aaaa5;
+}
+
+/*Below is the main container for both the main
+content and the contact us sidebar */
+#mainContainer {
+	clear: both;
+    height: 600px;
+	margin: 0 auto;
+	border-top: 2px solid gray;
+	background-image: url("../images/pinkdust.png");
+    display: block;
+    z-index: 0;
+ 
+}
+
+/*Used in the about me section to float the 
+image to the left of the paragraph. */
+#imageFloat {
+	float: left;
+}
+
+/*controls and sizes the images 
+in the connect with me sidebar*/
+.connectImages {
+	height: 70px;
+	width: 70px;
+}
+#galleryImages {
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+}
+
+h2 { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+   color: #ffffff;
+   background-color: #4aaaa5;
+   display: inline-block;
+}
+
+#mainContent {
+	width: 650px;
+	margin-left: 15px;
+	float:left;
+	background-color: #fff;
+	border: 2px;
+}
+#connectWith {
+	width: 270px;
+	float:right;
+	margin: 0px 10px;
+	background-color: #fff;
+    align-content: center;
+    border: 2px;
+}
+#message {
+	width: 375px;
+	height: 200px;
+}
+.image-wrapper {
+    position: relative;
+    padding: 10px;
+    float: left;
+}
+.image-wrapper p {
+    position: absolute;
+    top: 180px;
+    width: 275px;
+    background-color: #4aaaa5;
+    color: #FFF;
+    padding: 10px 0px;
+    text-align: center;
+}
+.footer{
+	clear: both;
+	background-color:#666;
+	padding: 30px;
+	margin: 0 auto;
+	color: #fff;
+	border-top: 4px solid #4aaaa5;
+	text-align: center;
+	font-size: 12px;
+}
