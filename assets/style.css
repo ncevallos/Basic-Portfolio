@@ -20,6 +20,9 @@ h1{
 	border-color:#ccc;
 	font-size: 24px;
 }
+hr{
+	margin: 0em 1em;
+}
 /*NameHeader formats the area with my name */
 #NameHeader {
 	background-color: #4aaaa5;
@@ -43,17 +46,18 @@ the page and connect with me */
 .headings2 {
 
 	color: #4aaaa5;
+	align-content: center;
 }
 
 /*Below is the main container for both the main
 content and the contact us sidebar */
 #mainContainer {
 	clear: both;
-    height: 600px;
-	margin: 0 auto;
+	margin: 0 auto;  
+	height: 800px;
 	border-top: 2px solid gray;
 	background-image: url("../images/pinkdust.png");
-    display: block;
+    background-repeat: repeat;
     z-index: 0;
  
 }
@@ -85,31 +89,42 @@ h2 {
    background-color: #4aaaa5;
    display: inline-block;
 }
-
+/*Below is the code for the container that 
+holds the main content*/
 #mainContent {
 	width: 650px;
-	margin-left: 15px;
+	margin-left: 10px;
+	padding: 5px;
 	float:left;
 	background-color: #fff;
 	border: 2px;
 }
+/*Below is the code for the container that 
+holds the images to connect with*/
 #connectWith {
 	width: 270px;
 	float:right;
 	margin: 0px 10px;
 	background-color: #fff;
-    align-content: center;
     border: 2px;
+}
+#imageContainer{
+	margin: auto;
+	text-align: center;
 }
 #message {
 	width: 375px;
 	height: 200px;
 }
+/*below is the code for the images in the portfolio
+section */
 .image-wrapper {
     position: relative;
     padding: 10px;
     float: left;
 }
+/*below is the code for the text overlaying images 
+on the portfolio page*/
 .image-wrapper p {
     position: absolute;
     top: 180px;
