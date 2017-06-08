@@ -153,3 +153,14 @@ on the portfolio page*/
 	text-align: center;
 	font-size: 12px;
 }
+
+/*ENDING NOTES/COMMENTS
+I did include the reset.css file, but did 
+not link or utilize it, the homework specifications
+never mentioned tying the file in, and since it 
+was introduced last class I did not have time 
+Wednesday to implement it and fix the necessary changes.
+In addition, for the background image, I ended up
+having to stick with simply defining the height, 
+rather than get it to extend the length of the main 
+content. Two things that I would fix given a little more time.
